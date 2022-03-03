@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satarbaks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div id="circle"class="circle"></div>
+        <header>
+            <a href="#"><img src="logo.png" class="logo" ></a>
+            <ul>
+                <li > <a id="home" href="#" >Home</a></li>
+                <li > <a id="menu"href="#" >Menu</a> </li>
+                <li > <a id="contact"href="#" >Contact</a> </li>
+
+            </ul>
+            <br>
+            <br>
+           
+            
+        </header>
+        
+        <div class="content">
+            
+            <div class="textbox">
+                <h1 style="font-size: 40px; text-align: center;margin-bottom: 60px;"> Welcome To Satarbaks</h1>
+                <h2>It's perfect coffee!!</h2><span> It's Satarbaks!</span>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quod iusto eos incidunt minima tempore? Mollitia, tempore. Deleniti, 
+                    ntur sit ip
+                     sum impedit maxime dolorum, laborum expedita eum ratione nostrum atque
+                      obcaecati at! Velit sunt nihil recusandae corporis quae molestiae si
+                     aut in ut, exercitationem non, deleniti atque nostrum ad.</p>
+                     <a href="#" class="learn">Learn More</a>
+            </div>
+            <div class="imgbox">
+                <img id="screen"src="picture1.png" class="starbucs" >
+            </div>
+        </div>
+        <ul class="bot">
+            <li><img id="png1"class="png1"src="picture1.png"></li>
+            <li><img id="png2"class="png1"src="picture2.png" ></li>
+            <li><img id="png3"class="png1" src="picture3.png" ></li>
+        </ul>
+        <ul class="social">
+            <li><a href="#"><img class="soci1"src="insta.png"></a></li>
+           
+        </ul>
+        <br>
+        
+
+        <ul class="social2">
+           
+                <li><a href="#"><img class="soci2"src="facebook.png"></a></li>
+               
+            </ul>
+           
+        </ul>
+        <br>
+        <ul class="social3">
+            <li><a href="#"><img class="soci3"src="twitter.png"></a></li>
+           
+        </ul>
+    </section>
+
+    <script>
+        document.getElementById("png1").addEventListener("click",()=>{
+            document.getElementById("circle").style.background="#017143";
+            a= document.getElementById("screen");
+            a.src="picture1.png";
+        })
+        document.getElementById("png2").addEventListener("click",()=>{
+            document.getElementById("circle").style.background="pink";
+            a= document.getElementById("screen");
+            a.src="picture2.png";
+        })
+        document.getElementById("png3").addEventListener("click",()=>{
+            b=document.getElementById("screen");
+            b.style.width="350px";
+            a= document.getElementById("screen");
+            a.src="picture3.png";
+            document.getElementById("circle").style.background="red";
+            
+        })
+
+    </script>
+    
+</body>
+</html>

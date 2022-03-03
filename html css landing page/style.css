@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+section{
+    position:relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-top: 30px;
+    max-width: 120px;
+}
+header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+   
+    width:100%;
+    top: 0px;
+    left: 0;
+    padding: 20px 100px;
+
+}
+header ul{
+    position: relative;
+    
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+}
+header ul li{
+    padding: 0px 20px;
+}
+header ul li a{
+    display: inline-block;
+    color:#333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.content.textbox{
+    position: relative;
+    max-width: 600px;
+}
+.content.textbox h2{
+    color:#333;
+    font-size: 4em;
+    font-weight: 900;
+}
+ span{
+    color:#017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+ p{
+    color:#333;
+}
+.starbucs{
+    max-width: 400px;
+    margin-left: 65px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.learn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    color:#fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.learn:hover{
+    transform: translateY(+5px);
+    cursor: pointer;
+    background-color: #71c09f;
+
+}
+.bot{
+    position: absolute;
+    left:50%;
+    bottom:20px;
+    transform: translate(-50%);
+    display: flex;
+}
+.bot li{
+    list-style-type: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.png1{
+    max-width: 30%;
+
+}
+.bot li:hover{
+    transform: translateY(-15px);
+}
+.circle{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
+    
+
+}
+#home {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10%;
+    border-radius: 10px;
+    margin-top: 40px;
+    
+    background-color: #8ed6b8;
+    
+    transition: 0.5s;
+}
+#menu {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10%;
+    border-radius: 10px;
+    margin-top: 40px;
+    
+    background-color: #8ed6b8;
+    
+    transition: 0.5s;
+}
+#contact {
+    margin-top: 40px;
+    
+    background-color: #8ed6b8;
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#home:hover{
+    cursor:pointer;
+    background-color: #528872;
+    transform: translateY(+5px);
+}
+#menu:hover{
+    cursor:pointer;
+    background-color: #528872;
+    transform: translateY(+5px);
+}
+#contact:hover{
+    cursor:pointer;
+    background-color: #528872;
+    transform: translateY(+5px);
+}
+
+.social li{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    z-index:1;
+    margin :60px 0px;
+    
+    width:100px;
+   
+
+}
+.social2 li{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    z-index:1;
+    position: absolute;
+    margin :0px 0px;
+    
+    width:150px;
+    
+
+}
+.social3 li{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    z-index:1;
+    margin :100px 0px;
+    
+    width:200px;
+
+}
+.soci1{
+    width:45%;
+    transition: 00.5s;
+}
+.soci2{
+    width:45%;
+    transition: 00.5s;
+}
+.soci3{
+    width:45%;
+    transition: 00.5s;
+}
+.soci1:hover{
+    width:55%;
+}
+.soci2:hover{
+    width:55%;
+}
+.soci3:hover{
+    width:55%;
+}
+
